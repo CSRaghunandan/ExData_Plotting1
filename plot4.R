@@ -15,6 +15,7 @@ power <- read.csv2.sql(file = "household_power_consumption.txt", header = TRUE,
 # open a png graphics device
 png(file = "plot4.png")
 
+# change global parameter mfcol to 2 x 2 
 par(mfcol = c(2,2))
 
 dateTime   <- as.POSIXlt(paste(as.Date(power$Date, format="%d/%m/%Y"), 
