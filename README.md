@@ -1,5 +1,14 @@
 ## Introduction
 
+NOTE: 
+
+ set the working direcetory to the cloned github directory
+ the household_power_consumption.txt data file should be
+ placed inside the cloned directory for the code to work
+
+ if sqldf is not installed, run this command in R console
+ install.packages("sqldf")
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
